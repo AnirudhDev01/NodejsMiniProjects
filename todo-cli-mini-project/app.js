@@ -1,4 +1,5 @@
 // This project is built by Anirudh
+// To run this app type: "node app.js" in the cli 
 import readline from 'readline'; // It is a in-built module provided by nodejs
 const rl = readline.createInterface({
     input:process.stdin, // To take the input from console
