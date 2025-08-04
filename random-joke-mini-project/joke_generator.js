@@ -15,10 +15,10 @@ const getJoke = () => {
             const joke = JSON.parse(data);
             console.log(`Here is a random ${joke.type} joke`);
             console.log(chalk.bgGreen(`${joke.setup}`)); // Using the chalk package to beautify the output on console
-            console.log(chalk.bgBlue(`${joke.punchline}`))
+            console.log(chalk.bgBlue(`${joke.punchline}`));
         });
         response.on('error',(error)=>{ // If any error occurs printing error message on console
-            console.log("Error: ",error.message)
+            console.log("Error: ",error.message);
         })
     })
 }
