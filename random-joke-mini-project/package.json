@@ -1,0 +1,15 @@
+{
+  "name": "random-joke-mini-project",
+  "version": "1.0.0",
+  "main": "joke_generator.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anirudh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}
